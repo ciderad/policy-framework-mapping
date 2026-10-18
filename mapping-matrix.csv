@@ -1,0 +1,5 @@
+Framework,Control ID,Control Subcategory,Mapped Internal Policy,Coverage Status,Notes / Gaps Identified
+NIST CSF 2.0,PR.AC-01,Identities and credentials are authenticated,policies/access-control-policy.md,Fully Compliant,MFA enforced globally; hardware tokens required for privileged users.
+NIST CSF 2.0,PR.AC-04,Access permissions are managed,policies/access-control-policy.md,Fully Compliant,Least-privilege guidelines documented and enforced via IAM workflows.
+NIST CSF 2.0,DE.CM-01,Networks and network services are monitored,policies/incident-response-policy.md,Fully Compliant,EDR and network sensors deployed across 100% of hosts.
+NIST CSF 2.0,RS.AN-03,Analyses are performed to investigate incidents,policies/incident-response-policy.md,Partially Compliant,RCA timelines defined, but automated evidence collection needs improvement.
